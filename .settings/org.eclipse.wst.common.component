@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="CrunchifySpringMCVTutorial">
+    <wb-module deploy-name="SimpleSpringMVCApplication">
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <wb-resource deploy-path="/" source-path="/WebContent/WEB-INF/jsp"/>
-        <property name="context-root" value="CrunchifySpringMCVTutorial"/>
-        <property name="java-output-path" value="/CrunchifySpringMCVTutorial/build/classes"/>
+        <property name="java-output-path" value="/SimpleSpringMVCApplication/build/classes"/>
+        <property name="context-root" value="SimpleSpringMVCApplication"/>
     </wb-module>
 </project-modules>
