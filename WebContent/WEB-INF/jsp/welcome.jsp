@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Spring MVC</title>
+<title>JH - Welcome Page</title>
 <style type="text/css">
 body {
 	background-image: url('http://crunchify.com/bg.png');
