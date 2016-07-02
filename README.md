@@ -1,6 +1,17 @@
 # springMVC
 Simple Java Spring MVC project
 
+TODO: 
+1) Complete project notes
+2) Add images
+3) Add database connection
+4) Confirm structure is appropriate
+5) Formalize template
+6) Sort local background image - Dont ref external image from crunchify
+7) Install to Tomcat properly! 
+8) Add navigation buttons
+9) Implement versioning
+
 Create as Dynamic Web Project
 Convert to Maven Project
 Updated pom.xml with relevant config and dependancies
