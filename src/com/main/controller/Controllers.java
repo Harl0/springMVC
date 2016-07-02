@@ -10,14 +10,14 @@ import org.springframework.web.servlet.ModelAndView;
  */
 
 @Controller
-public class HelloWorld {
+public class Controllers {
 	
 	@RequestMapping("/welcome")
-	public ModelAndView helloWorld() {
+	public ModelAndView welcomePage() {
 		
 		String message ="<br><div style='text-align:center;'>"
 				+ "<h3>********** Hello Jason *********</h3>"
-				+ "<h2>********* This message is coming from HelloWorld.java **********</div><br><br>";
+				+ "<h2>********* This message is coming from Controllers.welcomePage **********</div><br><br>";
 		return new ModelAndView("welcome", "message", message);	
 		
 	}
@@ -26,7 +26,7 @@ public class HelloWorld {
 	public ModelAndView newsPage() {
 		String message ="<br><div style='text-align:center;'>"
 				+ "<h3>********** Hello User *********</h3>"
-				+ "<h2>********* This message is coming from HelloWorld.newPage **********</div><br><br>";
+				+ "<h2>********* This message is coming from Controllers.newPage **********</div><br><br>";
 		return new ModelAndView("news", "message", message);	
 		
 	}

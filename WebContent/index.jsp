@@ -14,8 +14,9 @@ body {
 			Hello Jason, welcome to the index.jsp ... <br> <br>
 		</h2>
 		<h3>
-			<a href="welcome.html">Click to see welcome message ... </a>(to check Spring MVC Controller... @RequestMapping("/welcome")) <br>
-		    <a href="news.html">Click to see news page ... </a>
+			<a href="welcome.html">Click to see welcome message ... </a> <br>
+		    <a href="news.html">Click to see news page ... </a> <br>
+		    (to check Spring MVC Controller... @RequestMapping("/welcome"))
 			
 		</h3>
 	</div>
