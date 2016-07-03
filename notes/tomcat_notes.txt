@@ -1,0 +1,28 @@
+Tomcat config
+Update pom.xml with:
+<plugin>
+    <groupId>org.apache.tomcat.maven</groupId>
+    <artifactId>tomcat7-maven-plugin</artifactId>
+    <version>2.2</version>
+    <configuration>
+        <url>http://localhost:8080/manager/text</url>
+        <server>your_server</server>
+        <path>/SimpleSpringMVCApplication</path>
+        <username>admin</username>
+        <password>admin</password>                 
+    </configuration>
+</plugin>
+
+Update settings.xml with:
+<server>
+    <id>your_server</id>
+    <username><user></username>
+    <password><password></password>
+</server>
+
+Update tomcat-users.xml with:
+<role rolename="manager-gui"/>  
+        <role rolename="manager-script"/>   
+        <user username="<user>" password="<password>" roles="manager-gui,manager-script" />  
+        
+NOTE: <user> and <password> must match settings.xml!
