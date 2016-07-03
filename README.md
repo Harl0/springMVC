@@ -18,4 +18,6 @@ Simple Java Spring MVC project
 mvn clean install
 mvn tomcat7:deploy | redeploy
 
+mvn tomcat7:run-war (run local instance of Tomcat - streaming terminal)
+
 NOTE:Ensure Tomcat server is running.
