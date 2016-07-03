@@ -11,7 +11,7 @@ body {
 	<br>
 	<div style="text-align:center">
 		<h2>
-			Hello Jason, welcome to the index.jsp ... <br> <br>
+			Hello Jason, I am now deployed to Tomcat welcome to the index.jsp ... <br> <br>
 		</h2>
 		<h3>
 			<a href="welcome.html">Click to see welcome message ... </a> <br>
